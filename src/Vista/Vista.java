@@ -45,8 +45,8 @@ public class Vista extends JPanel implements ActionListener {
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/carrotuneado3.png")).getImage(),
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/carrotuneado4.png")).getImage()
                     };
-                    delay = 10; 
-                    paso = 10;
+                    delay = 7; 
+                    paso = 11;
                 } else {
                     frames = new Image[]{
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/carronormal1.png")).getImage(),
@@ -54,8 +54,8 @@ public class Vista extends JPanel implements ActionListener {
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/carronormal3.png")).getImage(),
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/carronormal4.png")).getImage()
                     };
-                    delay = 15;
-                    paso = 8;
+                    delay = 10;
+                    paso = 9;
                 }
             }
             case 1 -> { 
@@ -67,8 +67,8 @@ public class Vista extends JPanel implements ActionListener {
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/motopro3.png")).getImage(),
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/motopro4.png")).getImage()
                     };
-                    delay = 7; 
-                    paso = 12;
+                    delay = 4; 
+                    paso = 10;
                 } else {
                     frames = new Image[]{
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/motonormal1.png")).getImage(),
@@ -76,7 +76,7 @@ public class Vista extends JPanel implements ActionListener {
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/motonormal3.png")).getImage(),
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/motonormal4.png")).getImage()
                     };
-                    delay = 20;
+                    delay = 15;
                     paso = 7;
                 }
             }
@@ -89,7 +89,7 @@ public class Vista extends JPanel implements ActionListener {
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/Ciclapro3.png")).getImage(),
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/Ciclapro4.png")).getImage()
                     };
-                    delay = 25;
+                    delay = 20;
                     paso = 5;
                 } else {
                     frames = new Image[]{
@@ -98,13 +98,13 @@ public class Vista extends JPanel implements ActionListener {
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/Ciclanormal3.png")).getImage(),
                         new ImageIcon(getClass().getResource("/Imagenes/imagenes/Ciclanormal4.png")).getImage()
                     };
-                    delay = 35; 
-                    paso = 4;
+                    delay = 25; 
+                    paso = 5;
                 }
             }
         }
 
-        // Reiniciar el timer con nueva velocidad
+        // Reiniciar el timer con  nueva velocidad
         if (timer != null) {
             timer.setDelay(delay);
         }
