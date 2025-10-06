@@ -7,13 +7,13 @@ import java.util.Random;
 
 public class Vista extends JPanel implements ActionListener {
 
-    private Image fondo;
+    private Image fondo; //sdsadsdadsadasdasdasdsad
     private Image[] frames;
     private int frameIndex = 0;
     private int x = 0;
     private Timer timer;
-    private int delay;  // controla la velocidad del Timer
-    private int paso;   // cantidad de píxeles que se mueve en cada tick
+    private int delay;  
+    private int paso;   
     private Random rand;
     private String tipoVehiculo;
     private boolean esPro;
@@ -104,7 +104,7 @@ public class Vista extends JPanel implements ActionListener {
             }
         }
 
-        // Reiniciar el timer con la nueva velocidad
+        // Reiniciar el timer con nueva velocidad
         if (timer != null) {
             timer.setDelay(delay);
         }
