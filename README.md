@@ -48,16 +48,23 @@ Cada vehículo posee una velocidad relativa, determinada según su tipo y si tie
 
 ```
 src/
+PatronDecoratorDesplazamiento
+├── Imagenes.imagenes # Carpeta de recursos gráficos (sprites y fondos)
 │
-├── Instrumento.java
-├── InstrumentoCompuesto.java
-├── Guitarra.java
-├── Violin.java
-├── Bateria.java
-├── Tambor.java
-├── Flauta.java
-├── Trompeta.java
-└── Main.java
+├── Vista # Interfaz gráfica
+│ └── Vista.java
+│
+├── controlador # Clase principal de ejecución
+│ └── AplMain.java
+│
+└── modelo # Clases del modelo y patrón Decorator
+├── Bicicleta.java
+├── Carro.java
+├── Moto.java
+├── Personaje.java
+├── Desplazamiento.java
+└── DesplazamientoDecorator.java
+
 ```
 
 ---
