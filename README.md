@@ -113,6 +113,9 @@ Vista de Ejemplo
 <img width="959" height="501" alt="image" src="https://github.com/user-attachments/assets/bbb33334-4adb-4752-9aab-80b196862ce5" />
 
 
+
 Autores
+
 Kaleth Molina — Código: 20232020096
+
 Nelson Molina — Código: 20222020121
