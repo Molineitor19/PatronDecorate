@@ -91,7 +91,7 @@ Este diseño facilita la extensión de características sin alterar las clases p
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/PatronDecoratorDesplazamiento.git
+   https://github.com/Molineitor19/PatronDecorate.git
 Abrir el proyecto en NetBeans IDE.
 
 Verificar que esté configurado Apache Tomcat (si se desea usar para despliegue).
