@@ -45,7 +45,6 @@ Cada vehículo posee una velocidad relativa, determinada según su tipo y si tie
 ## Estructura del Proyecto
 
 PatronDecoratorDesplazamiento
-│
 ├── Imagenes.imagenes # Carpeta de recursos gráficos (sprites y fondos)
 │
 ├── Vista # Interfaz gráfica
@@ -64,9 +63,6 @@ PatronDecoratorDesplazamiento
 │
 └── Test Packages
 └── <default package>
-
-yaml
-Copiar código
 
 ---
 
